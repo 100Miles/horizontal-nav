@@ -1,11 +1,11 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Bevan";
   background-color: #efeee9;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -20,9 +20,8 @@ h1 {
 
 nav {
   background-color: grey;
-  border-style: solid;
-  border-width: 3px 0px 3px 0px;
-  border-color: dimgrey;
+  border-bottom: 3px solid dimgrey;
+  border-top: 3px solid dimgrey;
 }
 
 .nav-boxes a {
@@ -41,7 +40,7 @@ nav {
 .nav-boxes li {
   list-style-type: none;
   font-family: sans-serif;
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   text-align: center;
   color: white;
