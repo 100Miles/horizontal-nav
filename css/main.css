@@ -26,26 +26,32 @@ nav {
 }
 
 .nav-boxes a {
-  display: block;
   text-align: center;
   color: white;
   text-decoration: none;
-  max-width: 10em;
   background-color: maroon;
-  border-radius: 3px;
+
 }
 
 .nav-boxes {
   text-align: center;
-  display: inline;
   margin: 0;
 }
 
-.nav-boxes ul {
+.nav-boxes li {
   list-style-type: none;
   font-family: sans-serif;
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  max-width: 10em;
+  background-color: maroon;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
 }
 
-.navboxes a:hover {
+.nav-boxes a:hover {
   background-color: red;
 }
